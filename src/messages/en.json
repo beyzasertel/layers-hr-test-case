@@ -1,9 +1,10 @@
 {
   "HomePage": { 
-   "sign_up": "Kayıt Ol",
-   "sign_in": "Giriş Yap",
+   "sign_up": "Sign Up",
+   "sign_in": "Sign In",
    "advanced_search": "Advanced Search",
-   "popular_search": "Popular Search"
+   "popular_search": "Popular Search",
+   "search_placeholder": "Search | Job, Company, Keyword"
   },
   "common": {
    

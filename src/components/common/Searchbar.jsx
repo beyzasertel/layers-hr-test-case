@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Box, TextField, InputAdornment, IconButton } from "@mui/material";
+
+import { Box, TextField, InputAdornment } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
 export default function Searchbar({

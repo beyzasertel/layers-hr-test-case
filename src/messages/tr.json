@@ -3,7 +3,8 @@
     "sign_up": "Kayıt Ol",
     "sign_in": "Giriş Yap",
     "advanced_search": "Detaylı Arama",
-    "popular_search": "Popüler Aramalar"
+    "popular_search": "Popüler Aramalar",
+    "search_placeholder": "İş ara | İş, Şirket, Anahtar Kelime"
   },
   "common": {
     "sign_up": "Kayıt Ol",

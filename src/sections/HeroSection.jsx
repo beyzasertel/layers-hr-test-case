@@ -6,8 +6,8 @@ import { useMessages, useLocale, useTranslations } from "next-intl";
 
 export default function HeroSection() {
   const locale = useLocale();
-  const messages = useMessages(); // ✅ provider yoksa burada patlar / boş gelir
-  const t = useTranslations("common");
+  const messages = useMessages();
+  const t = useTranslations("HomePage");
 
   return (
     <div className="bg-hero bg-cover py-4">
@@ -24,7 +24,7 @@ export default function HeroSection() {
       <div className="flex flex-col items-center">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-4">
           <div className="flex-1 min-w-0">
-            <SearchBar />
+            <SearchBar placeholder={t("search_placeholder")} />
           </div>
 
           <div className="flex flex-col items-center">
