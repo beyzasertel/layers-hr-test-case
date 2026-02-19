@@ -5,7 +5,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 
 export default function LanguageSwitcher() {
   const locale = useLocale();
-  const pathname = usePathname(); // locale'siz route handle eder
+  const pathname = usePathname();
 
   return (
     <div className="flex gap-2">

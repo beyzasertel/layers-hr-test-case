@@ -1,24 +1,25 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) notFound();
-
   setRequestLocale(locale);
 
-  const messages = await getMessages();
+  const messages =
+    locale === "en"
+      ? (await import("../../messages/en.json")).default
+      : (await import("../../messages/tr.json")).default;
 
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider key={locale} locale={locale} messages={messages}>
+      {children}
+    </NextIntlClientProvider>
   );
 }
