@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "desc": "This page works with next-intl."
+  },
+  "Switcher": {
+    "tr": "TR",
+    "en": "EN"
+  }
+}

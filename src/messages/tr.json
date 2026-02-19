@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Merhaba Dünya!",
+    "desc": "Bu sayfa next-intl ile çalışıyor."
+  },
+  "Switcher": {
+    "tr": "TR",
+    "en": "EN"
+  }
+}
