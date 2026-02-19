@@ -1,7 +1,15 @@
 {
   "HomePage": {
-    "title": "Merhaba Dünya!",
-    "desc": "Bu sayfa next-intl ile çalışıyor."
+    "sign_up": "Kayıt Ol",
+    "sign_in": "Giriş Yap",
+    "advanced_search": "Detaylı Arama",
+    "popular_search": "Popüler Aramalar"
+  },
+  "common": {
+    "sign_up": "Kayıt Ol",
+    "sign_in": "Giriş Yap",
+    "advanced_search": "Detaylı Arama",
+    "popular_search": "Popüler Aramalar"
   },
   "Switcher": {
     "tr": "TR",

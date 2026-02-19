@@ -1,7 +1,12 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "desc": "This page works with next-intl."
+  "HomePage": { 
+   "sign_up": "Kayıt Ol",
+   "sign_in": "Giriş Yap",
+   "advanced_search": "Advanced Search",
+   "popular_search": "Popular Search"
+  },
+  "common": {
+   
   },
   "Switcher": {
     "tr": "TR",
