@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Custom theme variables */
+@theme {
+  --color-dark-grey: #626160;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Custom utilities */
+@layer utilities {
+  .bg-hero {
+    background-image: url("/images/bg-hero-section.svg");
   }
 }
+.custom-btn.MuiButton-root {
+  text-transform: none;
+  box-shadow: none;
+  font-weight: 400;
+}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.custom-btn--image.MuiButton-root {
+  background-color: #fff;
+  border-radius: 999px !important;
+  box-shadow: none !important;
+  text-transform: none !important;
+  min-width: 180px !important;
+  background-image: url("/images/bg-btn.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15px 50px;
+  border-radius: 28px;
+  overflow: hidden;
+  background-size: auto 50%;
+}
+
+.custom-btn--primary.MuiButton-root {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 18px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.custom-btn--pill.MuiButton-root {
+  background-color: #e9e9e9;
+  color: #666768;
+  height: 35px;
+  padding: 0 20px;
+  border-radius: 18px;
+  border: 1px solid #bfbfbfb2;
+  text-align: center;
+  flex-shrink: 0;
 }
