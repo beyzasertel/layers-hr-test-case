@@ -78,6 +78,8 @@
   "Profile": {
     "location": "Turkey, İstanbul, Sarıyer",
     "download": "Download my Find CV",
-    "editProfile": "Edit Profile"
+    "editProfile": "Edit Profile",
+    "website": "Website",
+    "edit": "Edit"
   }
 }

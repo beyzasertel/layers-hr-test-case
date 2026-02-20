@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "icon": "/images/icons/linkedin-icon.svg",
+      "href": "https://www.linkedin.com/in/USERNAME"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "icon": "/images/icons/github-icon.svg",
+      "href": "https://github.com/USERNAME"
+    },
+    {
+      "id": "behance",
+      "label": "Behance",
+      "icon": "/images/icons/behance-icon.svg",
+      "href": "https://www.behance.net/USERNAME"
+    },
+    {
+      "id": "web-icon-2",
+      "label": "Website",
+      "icon": "/images/icons/web-icon-2.svg",
+      "href": "https://www"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "icon": "/images/icons/facebook-icon.svg",
+      "href": "https://facebook.com/USERNAME"
+    },
+    {
+      "id": "twitter",
+      "label": "X",
+      "icon": "/images/icons/twitter-icon.svg",
+      "href": "https://x.com/USERNAME"
+    },
+    {
+      "id": "website",
+      "label": "Website",
+      "icon": "/images/icons/web-icon.svg",
+      "href": "https://your-site.com"
+    }
+  ]
+}

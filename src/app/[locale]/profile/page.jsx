@@ -5,6 +5,7 @@ import Searchbar from "@/components/common/Searchbar";
 import ProfileInformation from "@/components/PersonalInformation";
 import ProfilePhotoUploadCard from "@/components/ProfilePhotoUploadCard";
 import SearchSection from "@/sections/SearchSection";
+import SocialLinksSection from "@/sections/SocialLinksSection";
 import { useTranslations, useLocale } from "next-intl";
 
 export default function ProfilePage() {
@@ -17,6 +18,7 @@ export default function ProfilePage() {
       </div>
       <ProfilePhotoUploadCard />
       <ProfileInformation />
+      <SocialLinksSection />
     </div>
   );
 }

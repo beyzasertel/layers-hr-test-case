@@ -79,6 +79,8 @@
   "Profile": {
     "location": "Türkiye, İstanbul, Sarıyer",
     "download": "Find CV’mi İndir",
-    "editProfile": "Edit Profile"
+    "editProfile": "Profili Düzenle",
+    "website": "Web Sitesi",
+    "edit": "Düzenle"
   }
 }
