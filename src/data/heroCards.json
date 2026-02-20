@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "İş Ara",
+    "subtitle": "Profilini Oluştur",
+    "href": "/jobs",
+    "image": "/images/search-job.png"
+  },
+  {
+    "id": 2,
+    "title": "İş Veren Çözümleri",
+    "subtitle": "",
+    "href": "/employers",
+    "image": "/images/solutions.png"
+  }
+]

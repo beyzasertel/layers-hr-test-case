@@ -11,33 +11,25 @@ export default function HeroCardsSection() {
             <Link
               key={card.id}
               href={card.href}
-              className="group relative h-[260px] overflow-hidden rounded-3xl"
+              className="group relative h-[320px] overflow-hidden rounded-3xl"
             >
-              {/* BG image */}
               <Image
                 src={card.image}
                 alt={card.title}
                 fill
-                priority={card.id === 1}
-                className="object-cover transition duration-300 group-hover:scale-[1.03]"
+                className="object-cover transition duration-300 group-hover:scale-105"
               />
 
-              {/* Dark overlay */}
-              <div className="absolute inset-0 bg-black/35" />
+              <div className="absolute bottom-0 left-0 right-0 bg-black/45">
+                <div className="flex h-[64px] items-center justify-center gap-6 text-white">
+                  <span className="text-lg">{card.title}</span>
 
-              {/* Bottom texts */}
-              <div className="absolute bottom-0 left-0 right-0 p-8">
-                <div className="flex items-end gap-6 text-white">
-                  <span className="text-xl font-medium">{card.title}</span>
-
-                  {card.subtitle ? (
+                  {card.subtitle && (
                     <>
-                      <span className="h-6 w-px bg-white/60" />
-                      <span className="text-xl font-medium">
-                        {card.subtitle}
-                      </span>
+                      <span className="h-6 w-px bg-white/70" />
+                      <span className="text-lg">{card.subtitle}</span>
                     </>
-                  ) : null}
+                  )}
                 </div>
               </div>
             </Link>

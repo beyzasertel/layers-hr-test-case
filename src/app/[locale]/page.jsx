@@ -1,5 +1,5 @@
 import Footer from "@/components/common/Footer";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
+import HeroCardsSection from "@/sections/HeroCardsSection";
 import HeroSection from "@/sections/HeroSection";
 import PartnersSection from "@/sections/PartnersSections";
 import PopularSearch from "@/sections/PopularSearchSection";
@@ -18,6 +18,7 @@ export default async function HomePage({ params }) {
     <main className="">
       <HeroSection />
       <PopularSearch />
+      <HeroCardsSection />
       <PartnersSection />
       <Footer />
     </main>
