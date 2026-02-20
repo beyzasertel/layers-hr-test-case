@@ -1,5 +1,6 @@
 "use client";
 import { useTranslations } from "next-intl";
+import popularSearch from "@/data/popularSearch.json";
 
 import Button from "@/components/common/Button";
 
@@ -16,11 +17,11 @@ export default function PopularSearch() {
 
           <div className="relative w-full md:max-w-4xl">
             <div className="flex items-center gap-4 overflow-x-auto whitespace-nowrap pr-14 justify-start md:justify-center scroll-smooth">
-              <Button variant="pill">UX designer</Button>
-              <Button variant="pill">UI designer</Button>
-              <Button variant="pill">Front-end developer</Button>
-              <Button variant="pill">Back-end developer</Button>
-              <Button variant="pill">iOS developer</Button>
+              {popularSearch.map((item, index) => (
+                <Button key={index} variant="pill">
+                  {item}
+                </Button>
+              ))}
             </div>
 
             <div className="pointer-events-none absolute inset-y-0 right-0 w-28 bg-gradient-to-l via-white/80 to-transparent md:w-40" />
