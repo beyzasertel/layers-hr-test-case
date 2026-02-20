@@ -75,8 +75,9 @@
       "neyasis": "Neyasis Tech."
     }
   },
-  "Switcher": {
-    "tr": "TR",
-    "en": "EN"
+  "Profile": {
+    "location": "Turkey, İstanbul, Sarıyer",
+    "download": "Download my Find CV",
+    "editProfile": "Edit Profile"
   }
 }
