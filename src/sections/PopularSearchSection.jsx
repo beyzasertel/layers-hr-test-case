@@ -5,7 +5,7 @@ import popularSearch from "@/data/popularSearch.json";
 import Button from "@/components/common/Button";
 
 export default function PopularSearch() {
-  const t = useTranslations("common");
+  const t = useTranslations("Common");
 
   return (
     <section className="w-full bg-[#6b7998]/5 py-6">

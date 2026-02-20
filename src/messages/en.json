@@ -1,4 +1,5 @@
 {
+  "Common": {"popular_search": "Popular Search"},
   "HomePage": { 
    "sign_up": "Sign Up",
    "sign_in": "Sign In",
@@ -16,8 +17,51 @@
     "help_center": "Help Center",
     "find_talent_footer": "Finddeveloper.net Inc. operates as a Private Employment Agency between 31/08/2018 and 30/08/2021 under License No. 170, issued in accordance with the decision dated 16.07.2018 and numbered 26124 by the Turkish Employment Agency. Pursuant to Law No. 4904, no fees shall be charged to job seekers and no financial benefit shall be obtained from them. For complaints, you may contact the phone numbers below. Click here for other provinces. Turkish Employment Agency Istanbul Provincial Directorate: 0212 555 55 55 Turkish Employment Agency Istanbul Working and Employment Institution Ümraniye Service Center : 0216 523 90 26"
   },
-  "common": { 
-    "popular_search": "Popular Search"
+  "JobsForYou": {
+    "title": "Jobs for You",
+    "popularCategories": "Popular Categories",
+    "popularTitles": "Popular Job Titles",
+    "popularLocations": "Popular Locations",
+    "popularCompanyJobs": "Popular Company Jobs",
+
+    "categories": {
+      "softwareDevelopment": "Software Development",
+      "mobile": "Mobile Application Development",
+      "development": "Development",
+      "ux": "User Experience",
+      "usability": "Usability",
+      "projectManagement": "Project Management",
+      "businessAnalysis": "Business Analysis",
+      "reporting": "Reporting Specialist",
+      "testing": "Test Specialist",
+      "softwareArchitect": "Software Architect",
+      "uiDesign": "Interface Design"
+    },
+
+    "titles": {
+      "seniorDotnet": "Senior .NET Developer",
+      "seniorMobile": "Senior Mobile Developer",
+      "uxDesigner": "UX Designer",
+      "usabilityExpert": "Usability Specialist",
+      "itManager": "IT Manager",
+      "midDotnet": "Mid-Level .NET Developer"
+    },
+
+    "locations": {
+      "istanbul": "Istanbul",
+      "izmir": "Izmir",
+      "ankara": "Ankara"
+    },
+
+    "companies": {
+      "kocSistem": "Koç Sistem",
+      "aktifBank": "Aktif Bank",
+      "akbank": "Akbank",
+      "thy": "Turkish Airlines",
+      "brisa": "Brisa",
+      "vakifbank": "VakifBank",
+      "neyasis": "Neyasis Tech."
+    }
   },
   "Switcher": {
     "tr": "TR",

@@ -7,7 +7,7 @@ export default function Footer() {
   const t = useTranslations("Footer");
 
   return (
-    <footer className="bg-dark-grey text-white text-sm">
+    <footer className="bg-dark-gray text-white text-sm">
       <div className="mx-auto max-w-7xl px-6 py-6 space-y-6">
         <div className="flex flex-wrap items-center justify-between gap-8">
           <p className="whitespace-nowrap">®2020 Finddeveloper.net</p>

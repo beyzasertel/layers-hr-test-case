@@ -1,6 +1,7 @@
 import Footer from "@/components/common/Footer";
 import HeroCardsSection from "@/sections/HeroCardsSection";
 import HeroSection from "@/sections/HeroSection";
+import JobsForYouSection from "@/sections/JobsForYouSection";
 import PartnersSection from "@/sections/PartnersSections";
 import PopularSearch from "@/sections/PopularSearchSection";
 import { setRequestLocale } from "next-intl/server";
@@ -20,6 +21,7 @@ export default async function HomePage({ params }) {
       <PopularSearch />
       <HeroCardsSection />
       <PartnersSection />
+      <JobsForYouSection />
       <Footer />
     </main>
   );

@@ -2,7 +2,8 @@
 
 /* Custom theme variables */
 @theme {
-  --color-dark-grey: #626160;
+  --color-dark-gray: #626160;
+  --color-gray: #666768;
 }
 
 /* Custom utilities */

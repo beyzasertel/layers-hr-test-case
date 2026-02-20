@@ -1,0 +1,52 @@
+{
+  "titleKey": "JobsForYou.title",
+  "columns": [
+    {
+      "headingKey": "JobsForYou.popularCategories",
+      "items": [
+        { "labelKey": "JobsForYou.categories.softwareDevelopment", "href": "/jobs?category=software" },
+        { "labelKey": "JobsForYou.categories.mobile", "href": "/jobs?category=mobile" },
+        { "labelKey": "JobsForYou.categories.development", "href": "/jobs?category=development" },
+        { "labelKey": "JobsForYou.categories.ux", "href": "/jobs?category=ux" },
+        { "labelKey": "JobsForYou.categories.usability", "href": "/jobs?category=usability" },
+        { "labelKey": "JobsForYou.categories.projectManagement", "href": "/jobs?category=pm" },
+        { "labelKey": "JobsForYou.categories.businessAnalysis", "href": "/jobs?category=ba" },
+        { "labelKey": "JobsForYou.categories.reporting", "href": "/jobs?category=reporting" },
+        { "labelKey": "JobsForYou.categories.testing", "href": "/jobs?category=testing" },
+        { "labelKey": "JobsForYou.categories.softwareArchitect", "href": "/jobs?category=architect" },
+        { "labelKey": "JobsForYou.categories.uiDesign", "href": "/jobs?category=ui" }
+      ]
+    },
+    {
+      "headingKey": "JobsForYou.popularTitles",
+      "items": [
+        { "labelKey": "JobsForYou.titles.seniorDotnet", "href": "/jobs?title=senior-dotnet" },
+        { "labelKey": "JobsForYou.titles.seniorMobile", "href": "/jobs?title=senior-mobile" },
+        { "labelKey": "JobsForYou.titles.uxDesigner", "href": "/jobs?title=ux-designer" },
+        { "labelKey": "JobsForYou.titles.usabilityExpert", "href": "/jobs?title=usability" },
+        { "labelKey": "JobsForYou.titles.itManager", "href": "/jobs?title=it-manager" },
+        { "labelKey": "JobsForYou.titles.midDotnet", "href": "/jobs?title=mid-dotnet" }
+      ]
+    },
+    {
+      "headingKey": "JobsForYou.popularLocations",
+      "items": [
+        { "labelKey": "JobsForYou.locations.istanbul", "href": "/jobs?location=istanbul" },
+        { "labelKey": "JobsForYou.locations.izmir", "href": "/jobs?location=izmir" },
+        { "labelKey": "JobsForYou.locations.ankara", "href": "/jobs?location=ankara" }
+      ]
+    },
+    {
+      "headingKey": "JobsForYou.popularCompanyJobs",
+      "items": [
+        { "labelKey": "JobsForYou.companies.kocSistem", "href": "/jobs?company=koc-sistem" },
+        { "labelKey": "JobsForYou.companies.aktifBank", "href": "/jobs?company=aktif-bank" },
+        { "labelKey": "JobsForYou.companies.akbank", "href": "/jobs?company=akbank" },
+        { "labelKey": "JobsForYou.companies.thy", "href": "/jobs?company=thy" },
+        { "labelKey": "JobsForYou.companies.brisa", "href": "/jobs?company=brisa" },
+        { "labelKey": "JobsForYou.companies.vakifbank", "href": "/jobs?company=vakifbank" },
+        { "labelKey": "JobsForYou.companies.neyasis", "href": "/jobs?company=neyasis" }
+      ]
+    }
+  ]
+}
