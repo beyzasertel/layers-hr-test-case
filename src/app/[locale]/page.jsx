@@ -1,3 +1,4 @@
+import Footer from "@/components/common/Footer";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import HeroSection from "@/sections/HeroSection";
 import { setRequestLocale } from "next-intl/server";
@@ -15,6 +16,7 @@ export default async function HomePage({ params }) {
     <main className="">
       <LanguageSwitcher />
       <HeroSection />
+      <Footer />
     </main>
   );
 }

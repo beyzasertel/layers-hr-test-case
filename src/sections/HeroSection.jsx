@@ -2,11 +2,9 @@
 
 import Button from "@/components/common/Button";
 import SearchBar from "@/components/common/Searchbar";
-import { useMessages, useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 
 export default function HeroSection() {
-  const locale = useLocale();
-  const messages = useMessages();
   const t = useTranslations("HomePage");
 
   return (
