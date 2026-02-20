@@ -1,11 +1,24 @@
 {
-  "Common": {"popular_search": "Popüler Aramalar"},
+  "Common": {
+    "popular_search": "Popüler Aramalar",
+    "search_placeholder": "İş ara | İş, Şirket, Anahtar Kelime"
+  },
   "HomePage": {
     "sign_up": "Kayıt Ol",
     "sign_in": "Giriş Yap",
     "advanced_search": "Detaylı Arama",
     "popular_search": "Popüler Aramalar",
     "search_placeholder": "İş ara | İş, Şirket, Anahtar Kelime"
+  },
+  "Header": {
+    "brand": "finddeveloper.net",
+    "userTitle": "findtalent’de Kurucu",
+    "menu": {
+      "profile": "Profil",
+      "settings": "Ayarlar",
+      "saved": "Kaydedilenler",
+      "logout": "Çıkış Yap"
+    }
   },
   "Footer": {
     "privacy_center": "Gizlilik Merkezi",

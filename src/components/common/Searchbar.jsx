@@ -16,7 +16,7 @@ export default function Searchbar({
   };
 
   return (
-    <Box component="form" onSubmit={handleSubmit}>
+    <Box component="form" onSubmit={handleSubmit} sx={{ width: "100%" }}>
       <TextField
         value={value}
         onChange={(e) => setValue(e.target.value)}
@@ -25,36 +25,37 @@ export default function Searchbar({
         size="medium"
         variant="outlined"
         sx={{
-          bgcolor: "white",
-          borderRadius: "999px",
-
-          "& fieldset": {
-            border: "none",
-          },
-
-          "&:hover fieldset": {
-            border: "none",
-          },
-
-          "&.Mui-focused fieldset": {
-            border: "none",
-          },
+          width: "100%", // ✅ TextField root da genişlesin
 
           "& .MuiOutlinedInput-root": {
+            width: "100%",
+            height: { xs: 40, md: 50 },
             borderRadius: "999px",
             paddingRight: "12px",
-            width: {
-              xs: 250,
-              md: 350,
+            backgroundColor: "#fff", // ✅ beyazı input'a ver
+
+            // ✅ doğru border hedefi
+            "& .MuiOutlinedInput-notchedOutline": {
+              borderColor: "#4361ee",
+              borderWidth: "1.5px",
             },
-            height: { xs: 40, md: 50 },
+
+            // hover/focus değişmesin (kilitle)
+            "&:hover .MuiOutlinedInput-notchedOutline": {
+              borderColor: "#4361ee",
+              borderWidth: "1.5px",
+            },
+            "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+              borderColor: "#4361ee",
+              borderWidth: "1.5px",
+            },
           },
         }}
         slotProps={{
           input: {
             startAdornment: (
               <InputAdornment position="start">
-                <SearchIcon color="disabled" />
+                <SearchIcon sx={{ color: "#9ca3af" }} />
               </InputAdornment>
             ),
           },

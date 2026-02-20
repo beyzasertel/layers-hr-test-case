@@ -4,6 +4,8 @@
 @theme {
   --color-dark-gray: #626160;
   --color-gray: #666768;
+  --color-blue: #4361ee;
+  --color-light-blue: #f5f7ff;
 }
 
 /* Custom utilities */
@@ -29,9 +31,24 @@
   background-position: center;
   background-repeat: no-repeat;
   padding: 15px 50px;
-  border-radius: 28px;
   overflow: hidden;
   background-size: auto 50%;
+}
+
+.custom-btn--search-image.MuiButton-root {
+  background-color: transparent;
+  border-radius: 999px !important;
+  box-shadow: none !important;
+  text-transform: none !important;
+  min-width: 180px !important;
+  background-image: url("/images/bg-btn.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15px 50px;
+  overflow: hidden;
+  background-size: auto 50%;
+  border: 1px solid #4361ee !important;
 }
 
 .custom-btn--primary.MuiButton-root {
@@ -52,4 +69,24 @@
   border: 1px solid #bfbfbfb2;
   text-align: center;
   flex-shrink: 0;
+}
+
+.custom-btn--find-transparent.MuiButton-root {
+  background: transparent;
+  color: #4361ee;
+  border: 2px solid #4361ee;
+  border-radius: 999px;
+  text-transform: none;
+  box-shadow: none;
+  padding: 10px 34px;
+  min-width: 160px;
+  font-weight: 700;
+}
+
+.custom-btn--find-transparent.MuiButton-root:hover,
+.custom-btn--find-transparent.MuiButton-root:active,
+.custom-btn--find-transparent.MuiButton-root.Mui-focused {
+  background: transparent;
+  border-color: #4361ee;
+  box-shadow: none;
 }

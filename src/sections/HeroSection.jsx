@@ -21,8 +21,12 @@ export default function HeroSection() {
 
       <div className="flex flex-col items-center">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-4">
-          <div className="flex-1 min-w-0">
-            <SearchBar placeholder={t("search_placeholder")} />
+          <div className="w-sm md:w-lg lg:w-xl">
+            <SearchBar
+              variant="home"
+              placeholder={t("search_placeholder")}
+              fullWidth
+            />
           </div>
 
           <div className="flex flex-col items-center">

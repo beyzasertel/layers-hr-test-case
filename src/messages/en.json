@@ -1,11 +1,23 @@
 {
-  "Common": {"popular_search": "Popular Search"},
+  "Common": {
+    "popular_search": "Popular Search",
+    "search_placeholder": "Search | Job, Company, Keyword"},
   "HomePage": { 
    "sign_up": "Sign Up",
    "sign_in": "Sign In",
    "advanced_search": "Advanced Search",
    "popular_search": "Popular Search",
    "search_placeholder": "Search | Job, Company, Keyword"
+  },
+  "Header": {
+    "brand": "finddeveloper.net",
+    "userTitle": "Founder at findtalent",
+    "menu": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "saved": "Saved",
+      "logout": "Log out"
+    }
   },
   "Footer": { 
     "privacy_center": "Privacy Center",

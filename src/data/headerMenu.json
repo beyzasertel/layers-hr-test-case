@@ -1,0 +1,17 @@
+{
+  "user": {
+    "name": "Eray Karakullukçu",
+    "titleKey": "Header.userTitle",
+    "avatar": "/images/user.png"
+  },
+  "menu": [
+    { "key": "profile", "labelKey": "Header.menu.profile", "href": "/profile" },
+    { "key": "settings", "labelKey": "Header.menu.settings", "href": "/settings" }
+  ],
+  "logout": {
+    "labelKey": "Header.menu.logout"
+  },
+  "brand": {
+    "labelKey": "Header.brand"
+  }
+}
